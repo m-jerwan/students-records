@@ -80,6 +80,7 @@ function buildingInside(xx) {
     printTo(msgHTML, whereHTML);
   }
 }
+
 // returning students names into titleList
 function titleListGrab() {
   titleList= studentRecords[0][0]
