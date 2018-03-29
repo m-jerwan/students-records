@@ -1,0 +1,77 @@
+/*
+          FONT :
+ Brush Script MT
+          COLORS: Analogous 2 [adobe color wheel]
+lightblue: #8DE8E2
+lightgreen: #A9FFAB
+redskin: #F9947A
+ivory: #F9947A;
+darkivory: #F9947A
+
+
+*/
+
+/*============================================= MAIN: */
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+  justify-content: center;
+}
+
+body,
+.container {
+  display: flex;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #71BF84;
+  }
+
+/*---------------------------------------------CONTAINERS*/
+#title {
+  margin-top: 5em;
+  margin-bottom: 5em;
+  width: 80vw;
+  background-color: #4B7F58;
+  padding: 1em;
+  display: flex;
+}
+
+#studentContainer {
+  width: 80vw;
+  background-color: #4B7F58;
+  padding: 1em;
+  flex-wrap: wrap;
+
+}
+.containerIn {
+  flex: 1;
+  min-width: 10em;
+  background-color: #3E6948;
+  margin: 0.3em; /*have no idea why justify-content doesnt work*/
+  padding: 0.5em
+}
+
+
+
+
+/*---------------------------------------------DETAILS*/
+  h1 {
+      font-size: 4vh;
+      color: white;
+      font-family: 'Pridi', serif;
+  }
+
+  span {
+    color: black;
+  }
+
+  p {
+    font-size: 2vh;
+    text-align: left;
+    color: white;
+  }
