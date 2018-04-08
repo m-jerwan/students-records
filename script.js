@@ -1,57 +1,11 @@
-// js will display student records database in the browser.
-
-// All function elements are connected, which means they work great together, but will
-// not be able to exctract it and use somewhere else without syntax changes. Also,
-//error are soowballing.
-
-/*--------------------------------------------*/console.log();
 
 //========================VAR:
-var studentRecords = [ //array with all student data
-  ['Mark', 'Css', 25, 2536],
-  ['Sarah', 'Html', 17, 1756],
-  ['Svietlana', 'Ruby', 35, 4576],
-  ['Anhel', 'Python', 10, 500],
-  ['Konrad', 'Java', 15, 1564],
-  ['Bob', '', 0, 0],
-  ['Mark', 'Css', 25, 2536],
-  ['Sarah', 'Html', 17, 1756],
-  ['Svietlana', 'Ruby', 35, 4576],
-  ['Anhel', 'Python', 10, 500],
-  ['Konrad', 'Java', 15, 1564],
-  ['Bob', '', 0, 0],
-  ['Mark', 'Css', 25, 2536],
-  ['Sarah', 'Html', 17, 1756],
-  ['Svietlana', 'Ruby', 35, 4576],
-  ['Anhel', 'Python', 10, 500],
-  ['Konrad', 'Java', 15, 1564],
-  ['Bob', '', 0, 0],
-  ['Mark', 'Css', 25, 2536],
-  ['Sarah', 'Html', 17, 1756],
-  ['Svietlana', 'Ruby', 35, 4576]
-];
+
 var elements = ['Name','Track','Achievments','Points'];
 
 var msgHTML = '';
 var titleList= '';
 
-/*
-Should look like this:
-  studentRecords = [
-    {
-    Name: 'Mark',
-    Track: 'Css',
-    Achievments: 25,
-    Points: 2536
-  },  -- anonymous arrays.
-  {
-    Name: 'Sarah',
-    Track: 'Html',
-    Achievments: 17,
-    Points: 1756},
-    ....
-];
-*/
 //========================FUNCT:
 //-building outside containers for student records:
 function buildingOutside(xx) {
